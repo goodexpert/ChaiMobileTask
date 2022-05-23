@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		809CED53283B64F200757023 /* ChaiMobileTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED52283B64F200757023 /* ChaiMobileTaskApp.swift */; };
+		809CED55283B64F200757023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED54283B64F200757023 /* ContentView.swift */; };
+		809CED57283B64F300757023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809CED56283B64F300757023 /* Assets.xcassets */; };
+		809CED5A283B64F300757023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809CED59283B64F300757023 /* Preview Assets.xcassets */; };
+		809CED64283B64F300757023 /* ChaiMobileTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED63283B64F300757023 /* ChaiMobileTaskTests.swift */; };
+		809CED6E283B64F300757023 /* ChaiMobileTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED6D283B64F300757023 /* ChaiMobileTaskUITests.swift */; };
+		809CED70283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED6F283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		809CED60283B64F300757023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809CED47283B64F200757023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809CED4E283B64F200757023;
+			remoteInfo = ChaiMobileTask;
+		};
+		809CED6A283B64F300757023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 809CED47283B64F200757023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 809CED4E283B64F200757023;
+			remoteInfo = ChaiMobileTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		809CED4F283B64F200757023 /* ChaiMobileTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaiMobileTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CED52283B64F200757023 /* ChaiMobileTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiMobileTaskApp.swift; sourceTree = "<group>"; };
+		809CED54283B64F200757023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		809CED56283B64F300757023 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		809CED59283B64F300757023 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		809CED5F283B64F300757023 /* ChaiMobileTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaiMobileTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CED63283B64F300757023 /* ChaiMobileTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiMobileTaskTests.swift; sourceTree = "<group>"; };
+		809CED69283B64F300757023 /* ChaiMobileTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaiMobileTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		809CED6D283B64F300757023 /* ChaiMobileTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiMobileTaskUITests.swift; sourceTree = "<group>"; };
+		809CED6F283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiMobileTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		809CED4C283B64F200757023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CED5C283B64F300757023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CED66283B64F300757023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		809CED46283B64F200757023 = {
+			isa = PBXGroup;
+			children = (
+				809CED51283B64F200757023 /* ChaiMobileTask */,
+				809CED62283B64F300757023 /* ChaiMobileTaskTests */,
+				809CED6C283B64F300757023 /* ChaiMobileTaskUITests */,
+				809CED50283B64F200757023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		809CED50283B64F200757023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				809CED4F283B64F200757023 /* ChaiMobileTask.app */,
+				809CED5F283B64F300757023 /* ChaiMobileTaskTests.xctest */,
+				809CED69283B64F300757023 /* ChaiMobileTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		809CED51283B64F200757023 /* ChaiMobileTask */ = {
+			isa = PBXGroup;
+			children = (
+				809CED52283B64F200757023 /* ChaiMobileTaskApp.swift */,
+				809CED54283B64F200757023 /* ContentView.swift */,
+				809CED56283B64F300757023 /* Assets.xcassets */,
+				809CED58283B64F300757023 /* Preview Content */,
+			);
+			path = ChaiMobileTask;
+			sourceTree = "<group>";
+		};
+		809CED58283B64F300757023 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				809CED59283B64F300757023 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		809CED62283B64F300757023 /* ChaiMobileTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				809CED63283B64F300757023 /* ChaiMobileTaskTests.swift */,
+			);
+			path = ChaiMobileTaskTests;
+			sourceTree = "<group>";
+		};
+		809CED6C283B64F300757023 /* ChaiMobileTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				809CED6D283B64F300757023 /* ChaiMobileTaskUITests.swift */,
+				809CED6F283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift */,
+			);
+			path = ChaiMobileTaskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		809CED4E283B64F200757023 /* ChaiMobileTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809CED73283B64F300757023 /* Build configuration list for PBXNativeTarget "ChaiMobileTask" */;
+			buildPhases = (
+				809CED4B283B64F200757023 /* Sources */,
+				809CED4C283B64F200757023 /* Frameworks */,
+				809CED4D283B64F200757023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChaiMobileTask;
+			productName = ChaiMobileTask;
+			productReference = 809CED4F283B64F200757023 /* ChaiMobileTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		809CED5E283B64F300757023 /* ChaiMobileTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809CED76283B64F300757023 /* Build configuration list for PBXNativeTarget "ChaiMobileTaskTests" */;
+			buildPhases = (
+				809CED5B283B64F300757023 /* Sources */,
+				809CED5C283B64F300757023 /* Frameworks */,
+				809CED5D283B64F300757023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				809CED61283B64F300757023 /* PBXTargetDependency */,
+			);
+			name = ChaiMobileTaskTests;
+			productName = ChaiMobileTaskTests;
+			productReference = 809CED5F283B64F300757023 /* ChaiMobileTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		809CED68283B64F300757023 /* ChaiMobileTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 809CED79283B64F300757023 /* Build configuration list for PBXNativeTarget "ChaiMobileTaskUITests" */;
+			buildPhases = (
+				809CED65283B64F300757023 /* Sources */,
+				809CED66283B64F300757023 /* Frameworks */,
+				809CED67283B64F300757023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				809CED6B283B64F300757023 /* PBXTargetDependency */,
+			);
+			name = ChaiMobileTaskUITests;
+			productName = ChaiMobileTaskUITests;
+			productReference = 809CED69283B64F300757023 /* ChaiMobileTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		809CED47283B64F200757023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					809CED4E283B64F200757023 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					809CED5E283B64F300757023 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 809CED4E283B64F200757023;
+					};
+					809CED68283B64F300757023 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 809CED4E283B64F200757023;
+					};
+				};
+			};
+			buildConfigurationList = 809CED4A283B64F200757023 /* Build configuration list for PBXProject "ChaiMobileTask" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 809CED46283B64F200757023;
+			productRefGroup = 809CED50283B64F200757023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				809CED4E283B64F200757023 /* ChaiMobileTask */,
+				809CED5E283B64F300757023 /* ChaiMobileTaskTests */,
+				809CED68283B64F300757023 /* ChaiMobileTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		809CED4D283B64F200757023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CED5A283B64F300757023 /* Preview Assets.xcassets in Resources */,
+				809CED57283B64F300757023 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CED5D283B64F300757023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CED67283B64F300757023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		809CED4B283B64F200757023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CED55283B64F200757023 /* ContentView.swift in Sources */,
+				809CED53283B64F200757023 /* ChaiMobileTaskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CED5B283B64F300757023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CED64283B64F300757023 /* ChaiMobileTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809CED65283B64F300757023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				809CED70283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift in Sources */,
+				809CED6E283B64F300757023 /* ChaiMobileTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		809CED61283B64F300757023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 809CED4E283B64F200757023 /* ChaiMobileTask */;
+			targetProxy = 809CED60283B64F300757023 /* PBXContainerItemProxy */;
+		};
+		809CED6B283B64F300757023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 809CED4E283B64F200757023 /* ChaiMobileTask */;
+			targetProxy = 809CED6A283B64F300757023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		809CED71283B64F300757023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		809CED72283B64F300757023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		809CED74283B64F300757023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChaiMobileTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = finance.chai.apps.ChaiMobileTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		809CED75283B64F300757023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChaiMobileTask/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = finance.chai.apps.ChaiMobileTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		809CED77283B64F300757023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = finance.chai.apps.ChaiMobileTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaiMobileTask.app/ChaiMobileTask";
+			};
+			name = Debug;
+		};
+		809CED78283B64F300757023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = finance.chai.apps.ChaiMobileTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChaiMobileTask.app/ChaiMobileTask";
+			};
+			name = Release;
+		};
+		809CED7A283B64F300757023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = finance.chai.apps.ChaiMobileTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChaiMobileTask;
+			};
+			name = Debug;
+		};
+		809CED7B283B64F300757023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = finance.chai.apps.ChaiMobileTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChaiMobileTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		809CED4A283B64F200757023 /* Build configuration list for PBXProject "ChaiMobileTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CED71283B64F300757023 /* Debug */,
+				809CED72283B64F300757023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809CED73283B64F300757023 /* Build configuration list for PBXNativeTarget "ChaiMobileTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CED74283B64F300757023 /* Debug */,
+				809CED75283B64F300757023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809CED76283B64F300757023 /* Build configuration list for PBXNativeTarget "ChaiMobileTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CED77283B64F300757023 /* Debug */,
+				809CED78283B64F300757023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		809CED79283B64F300757023 /* Build configuration list for PBXNativeTarget "ChaiMobileTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				809CED7A283B64F300757023 /* Debug */,
+				809CED7B283B64F300757023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 809CED47283B64F200757023 /* Project object */;
+}
