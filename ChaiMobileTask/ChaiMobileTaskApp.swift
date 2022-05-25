@@ -12,6 +12,7 @@ struct ChaiMobileTaskApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(AppComponent.shared.viewModel)
         }
     }
 }

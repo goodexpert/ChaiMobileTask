@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		805EC142283DE25D000C6F4F /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC141283DE25D000C6F4F /* String+Extension.swift */; };
+		805EC144283DF302000C6F4F /* RoundedRectangleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805EC143283DF302000C6F4F /* RoundedRectangleShape.swift */; };
+		805EC145283DFE3A000C6F4F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 805EC147283DFE3A000C6F4F /* Localizable.strings */; };
+		807FFC70283BB63300DF93DD /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807FFC6F283BB63300DF93DD /* TaskRepository.swift */; };
+		809146BB283D8053008BEEC9 /* TaskContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 809146B9283D8053008BEEC9 /* TaskContainer.xcdatamodeld */; };
+		809146BD283D8185008BEEC9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809146BC283D8185008BEEC9 /* Persistence.swift */; };
+		809146BF283DAE57008BEEC9 /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809146BE283DAE57008BEEC9 /* AppComponent.swift */; };
+		809146C1283DD218008BEEC9 /* PopupDeleteAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809146C0283DD218008BEEC9 /* PopupDeleteAlert.swift */; };
 		809CED53283B64F200757023 /* ChaiMobileTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED52283B64F200757023 /* ChaiMobileTaskApp.swift */; };
 		809CED55283B64F200757023 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED54283B64F200757023 /* ContentView.swift */; };
 		809CED57283B64F300757023 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809CED56283B64F300757023 /* Assets.xcassets */; };
 		809CED5A283B64F300757023 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 809CED59283B64F300757023 /* Preview Assets.xcassets */; };
-		809CED64283B64F300757023 /* ChaiMobileTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED63283B64F300757023 /* ChaiMobileTaskTests.swift */; };
 		809CED6E283B64F300757023 /* ChaiMobileTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED6D283B64F300757023 /* ChaiMobileTaskUITests.swift */; };
-		809CED70283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED6F283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift */; };
+		809CED7D283B6AC600757023 /* TaskItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED7C283B6AC600757023 /* TaskItemView.swift */; };
+		80E9E333283B8725005C0C9E /* ChaiMobileTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809CED63283B64F300757023 /* ChaiMobileTaskTests.swift */; };
+		80E9E335283BAD2A005C0C9E /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E9E334283BAD2A005C0C9E /* TaskViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		805EC141283DE25D000C6F4F /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		805EC143283DF302000C6F4F /* RoundedRectangleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangleShape.swift; sourceTree = "<group>"; };
+		805EC146283DFE3A000C6F4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		805EC148283DFE8F000C6F4F /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		807FFC6F283BB63300DF93DD /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		809146BA283D8053008BEEC9 /* Task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Task.xcdatamodel; sourceTree = "<group>"; };
+		809146BC283D8185008BEEC9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		809146BE283DAE57008BEEC9 /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		809146C0283DD218008BEEC9 /* PopupDeleteAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDeleteAlert.swift; sourceTree = "<group>"; };
 		809CED4F283B64F200757023 /* ChaiMobileTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaiMobileTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		809CED52283B64F200757023 /* ChaiMobileTaskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiMobileTaskApp.swift; sourceTree = "<group>"; };
 		809CED54283B64F200757023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,7 +61,8 @@
 		809CED63283B64F300757023 /* ChaiMobileTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiMobileTaskTests.swift; sourceTree = "<group>"; };
 		809CED69283B64F300757023 /* ChaiMobileTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChaiMobileTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		809CED6D283B64F300757023 /* ChaiMobileTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiMobileTaskUITests.swift; sourceTree = "<group>"; };
-		809CED6F283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaiMobileTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		809CED7C283B6AC600757023 /* TaskItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemView.swift; sourceTree = "<group>"; };
+		80E9E334283BAD2A005C0C9E /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +113,19 @@
 		809CED51283B64F200757023 /* ChaiMobileTask */ = {
 			isa = PBXGroup;
 			children = (
+				809146BE283DAE57008BEEC9 /* AppComponent.swift */,
 				809CED52283B64F200757023 /* ChaiMobileTaskApp.swift */,
 				809CED54283B64F200757023 /* ContentView.swift */,
+				809146BC283D8185008BEEC9 /* Persistence.swift */,
+				809146C0283DD218008BEEC9 /* PopupDeleteAlert.swift */,
+				805EC143283DF302000C6F4F /* RoundedRectangleShape.swift */,
+				805EC141283DE25D000C6F4F /* String+Extension.swift */,
+				809146B9283D8053008BEEC9 /* TaskContainer.xcdatamodeld */,
+				809CED7C283B6AC600757023 /* TaskItemView.swift */,
+				807FFC6F283BB63300DF93DD /* TaskRepository.swift */,
+				80E9E334283BAD2A005C0C9E /* TaskViewModel.swift */,
 				809CED56283B64F300757023 /* Assets.xcassets */,
+				805EC147283DFE3A000C6F4F /* Localizable.strings */,
 				809CED58283B64F300757023 /* Preview Content */,
 			);
 			path = ChaiMobileTask;
@@ -122,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				809CED6D283B64F300757023 /* ChaiMobileTaskUITests.swift */,
-				809CED6F283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift */,
 			);
 			path = ChaiMobileTaskUITests;
 			sourceTree = "<group>";
@@ -143,6 +171,8 @@
 			dependencies = (
 			);
 			name = ChaiMobileTask;
+			packageProductDependencies = (
+			);
 			productName = ChaiMobileTask;
 			productReference = 809CED4F283B64F200757023 /* ChaiMobileTask.app */;
 			productType = "com.apple.product-type.application";
@@ -213,8 +243,11 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 809CED46283B64F200757023;
+			packageReferences = (
+			);
 			productRefGroup = 809CED50283B64F200757023 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				809CED5A283B64F300757023 /* Preview Assets.xcassets in Resources */,
+				805EC145283DFE3A000C6F4F /* Localizable.strings in Resources */,
 				809CED57283B64F300757023 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +291,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				809146BB283D8053008BEEC9 /* TaskContainer.xcdatamodeld in Sources */,
+				809146BF283DAE57008BEEC9 /* AppComponent.swift in Sources */,
+				809CED7D283B6AC600757023 /* TaskItemView.swift in Sources */,
+				80E9E335283BAD2A005C0C9E /* TaskViewModel.swift in Sources */,
+				809146C1283DD218008BEEC9 /* PopupDeleteAlert.swift in Sources */,
+				809146BD283D8185008BEEC9 /* Persistence.swift in Sources */,
 				809CED55283B64F200757023 /* ContentView.swift in Sources */,
 				809CED53283B64F200757023 /* ChaiMobileTaskApp.swift in Sources */,
+				805EC142283DE25D000C6F4F /* String+Extension.swift in Sources */,
+				807FFC70283BB63300DF93DD /* TaskRepository.swift in Sources */,
+				805EC144283DF302000C6F4F /* RoundedRectangleShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				809CED64283B64F300757023 /* ChaiMobileTaskTests.swift in Sources */,
+				80E9E333283B8725005C0C9E /* ChaiMobileTaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				809CED70283B64F300757023 /* ChaiMobileTaskUITestsLaunchTests.swift in Sources */,
 				809CED6E283B64F300757023 /* ChaiMobileTaskUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,11 +336,24 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		805EC147283DFE3A000C6F4F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				805EC146283DFE3A000C6F4F /* en */,
+				805EC148283DFE8F000C6F4F /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		809CED71283B64F300757023 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -359,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -577,6 +633,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		809146B9283D8053008BEEC9 /* TaskContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				809146BA283D8053008BEEC9 /* Task.xcdatamodel */,
+			);
+			currentVersion = 809146BA283D8053008BEEC9 /* Task.xcdatamodel */;
+			path = TaskContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 809CED47283B64F200757023 /* Project object */;
 }

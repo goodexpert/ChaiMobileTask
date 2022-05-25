@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  ChaiMobileTask
+
+  Created by Seongwuk Park on 24/05/22.
+  
+*/
+"appTitle" = "TO DO";
+"addTask" = "테스크 추가";
+"delete" = "삭제";
+"edit" = "편집";
+"newTask" = "NEW TASK";
+"noTaskMessage" = "새로운 테스크를 추가해 보세요.";
+"ok" = "학인";
+"removeMessage" = "%@ 를 삭제하시겠습니까?";
+
