@@ -10,25 +10,61 @@ import XCTest
 class ChaiMobileTaskUITests: XCTestCase {
     private static let defaultTimeout: TimeInterval = 3
     
-    private let app = XCUIApplication()
-    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
 
-        // UI tests must launch the application that they test.
-        app.launch()
-
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        deleteMyApp()
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
+    
+    private func deleteMyApp() {
+        let springboard = XCUIApplication(bundleIdentifier: "com.apple.springboard")
+        XCUIApplication().terminate()
 
+        let bundleDisplayName = "ChaiMobileTask"
+
+        let icon = springboard.icons[bundleDisplayName]
+        if icon.exists {
+            icon.press(forDuration: 1)
+
+            let buttonRemoveApp = springboard.buttons["Remove App"]
+            if buttonRemoveApp.waitForExistence(timeout: 5) {
+                buttonRemoveApp.tap()
+            } else {
+                XCTFail("Button \"Remove App\" not found")
+            }
+
+            let buttonDeleteApp = springboard.alerts.buttons["Delete App"]
+            if buttonDeleteApp.waitForExistence(timeout: 5) {
+                buttonDeleteApp.tap()
+            }
+            else {
+                XCTFail("Button \"Delete App\" not found")
+            }
+
+            let buttonDelete = springboard.alerts.buttons["Delete"]
+            if buttonDelete.waitForExistence(timeout: 5) {
+                buttonDelete.tap()
+            }
+            else {
+                XCTFail("Button \"Delete\" not found")
+            }
+        }
+    }
+    
     func testAddRemoveTask() throws {
+        let app = XCUIApplication()
+        
+        // UI tests must launch the application that they test.
+        app.launch()
+        
         // TODO: Test the presence of the navigation bar title
         let titleText = app.navigationBars.staticTexts["TO DO"].firstMatch
         XCTAssert(titleText.waitForExistence(timeout: ChaiMobileTaskUITests.defaultTimeout))
